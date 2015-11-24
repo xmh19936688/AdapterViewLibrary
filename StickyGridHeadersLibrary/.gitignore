@@ -1,0 +1,7 @@
+/build
+/src/androidTest
+/src/test
+/*.iml
+pom.xml
+project.properties
+gradlew
