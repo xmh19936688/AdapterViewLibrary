@@ -1,1 +1,1 @@
-include ':DoubleLevelStickyHeaderLibrary', ':StickyHeadersRecyclerViewDemo', ':UltimateRecyclerViewDemo', ':UltimateRecyclerViewLibrary', ':StickyGridHeadersDemo', ':DoubleLevelStickyHeaderDemo', ':StickyGridHeadersLibrary', ':StickyHeadersRecyclerViewLibrary'
+include ':DoubleLevelStickyHeaderLibrary', ':StickyHeadersRecyclerViewDemo', ':UltimateRecyclerViewDemo', ':UltimateRecyclerViewLibrary', ':StickyGridHeadersDemo', ':DoubleLevelStickyHeaderDemo', ':StickyGridHeadersLibrary', ':StickyHeadersRecyclerViewLibrary', ':ConvenientBannerDemo', ':ConvenientBannerLibrary'
