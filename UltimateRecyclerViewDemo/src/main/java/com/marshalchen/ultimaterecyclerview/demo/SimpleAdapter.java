@@ -2,7 +2,6 @@ package com.marshalchen.ultimaterecyclerview.demo;
 
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -46,7 +45,6 @@ public class SimpleAdapter extends UltimateViewAdapter<SimpleAdapter.SimpleAdapt
                 holder.item_view.setOnTouchListener(new View.OnTouchListener() {
                     @Override
                     public boolean onTouch(View v, MotionEvent event) {
-                        Log.e("click-xmh","click-item");
                         return false;
                     }
                 });
@@ -130,7 +128,6 @@ public class SimpleAdapter extends UltimateViewAdapter<SimpleAdapter.SimpleAdapt
         textView.setText(String.valueOf(getItem(position).charAt(0)));
 //        viewHolder.itemView.setBackgroundColor(Color.parseColor("#AA70DB93"));
         viewHolder.itemView.setBackgroundColor(Color.parseColor("#AAffffff"));
-
         ImageView imageView = (ImageView) viewHolder.itemView.findViewById(R.id.stick_img);
 
         SecureRandom imgGen = new SecureRandom();
@@ -145,13 +142,7 @@ public class SimpleAdapter extends UltimateViewAdapter<SimpleAdapter.SimpleAdapt
                 imageView.setImageResource(R.drawable.test_back);
                 break;
         }
-        imageView.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                Log.e("click-xmh", "click-head");
-                return false;
-            }
-        });
+
     }
 
     @Override
