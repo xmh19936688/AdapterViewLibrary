@@ -1,0 +1,21 @@
+apply plugin: 'com.android.library'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    resourcePrefix 'twowayview_'
+
+    defaultConfig {
+        minSdkVersion 10
+        targetSdkVersion 21
+    }
+}
+
+dependencies {
+    compile 'com.android.support:recyclerview-v7:23.0.1'
+}
+
